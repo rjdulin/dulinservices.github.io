@@ -1,10 +1,11 @@
 # Dulin Services - Life Insurance Solutions
 
-This is the official website for Dulin Services, owned by Robert Dulin, a licensed life insurance agent and Marine Corps veteran. 
+This is the official website for Dulin Services, owned by Robert Dulin, a licensed life insurance agent and Marine Corps veteran.
 
 **Website features:**
 - Professional insurance services (Final Expense, Whole Life, Mortgage Protection)
 - Clean, mobile-friendly design
+- Contact form to capture leads directly
 - Direct consultation scheduling
 
 Built with simple HTML/CSS and hosted on GitHub Pages with a custom domain.
@@ -13,4 +14,3 @@ Built with simple HTML/CSS and hosted on GitHub Pages with a custom domain.
 
 ---
 License #4096399
-

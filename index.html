@@ -6,19 +6,21 @@
   <title>Dulin Services | Life Insurance Solutions</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
-    header { background: #1e3a8a; color: white; text-align: center; padding: 30px 20px; }
-    nav { text-align: center; background: #2563eb; padding: 10px; }
+    header { background: #003399; color: white; text-align: center; padding: 30px 20px; }
+    nav { text-align: center; background: #003399; padding: 10px; }
     nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    .hero { background: #3b82f6; color: white; padding: 80px 20px; text-align: center; }
+    .hero { background: #003399; color: white; padding: 80px 20px; text-align: center; }
     .hero h1 { font-size: 2.8em; margin-bottom: 10px; }
     .hero p { font-size: 1.2em; }
     .section { padding: 60px 20px; max-width: 900px; margin: auto; background: white; margin-bottom: 20px; box-shadow: 0 0 12px rgba(0,0,0,0.05); }
     .profile-pic { width: 150px; border-radius: 50%; margin: 20px auto; display: block; }
-    h2 { color: #1e3a8a; }
-    footer { background: #1e3a8a; color: white; text-align: center; padding: 20px; font-size: 0.9em; }
-    .cta-button { background: #2563eb; color: white; padding: 15px 25px; text-decoration: none; font-weight: bold; border-radius: 8px; display: inline-block; margin-top: 20px; }
+    h2 { color: #003399; }
+    footer { background: #003399; color: white; text-align: center; padding: 20px; font-size: 0.9em; }
+    .cta-button { background: #FF0000; color: white; padding: 15px 25px; text-decoration: none; font-weight: bold; border-radius: 8px; display: inline-block; margin-top: 20px; }
     ul { list-style-type: none; padding: 0; }
     li { margin: 10px 0; }
+    input, textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 6px; }
+    label { font-weight: bold; }
   </style>
 </head>
 <body>
@@ -53,8 +55,23 @@
 
   <div class="section" id="contact">
     <h2>Contact</h2>
+    <form action="https://formspree.io/f/mldjpopd" method="POST">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="_replyto" required><br>
+
+      <label for="phone">Phone:</label><br>
+      <input type="text" id="phone" name="phone"><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br>
+
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
     <p>Email: <a href="mailto:robert@dulinservices.com">robert@dulinservices.com</a></p>
-    <p>Phone: <a href="tel:+12039066184">(203) 906-6184</a></p>
+    <p>Phone: <a href="tel:+13134740849">(313) 474-0849</a></p>
     <a href="mailto:robert@dulinservices.com" class="cta-button">Schedule a Consultation</a>
   </div>
 
