@@ -4,52 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dulin Services | Life Insurance Solutions</title>
+  <meta name="description" content="Licensed life insurance solutions from Dulin Services. Protect what matters most with Robert Dulin, a Marine Corps veteran and licensed agent.">
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
     header { background: #003399; color: white; text-align: center; padding: 15px 20px; }
-    header h1, header p {
-      margin: 0;
-    }
-    header h1 {
-      margin-bottom: 5px;
-    }
+    header h1, header p { margin: 0; }
+    header h1 { margin-bottom: 5px; }
+
     nav { text-align: center; background: #003399; padding: 5px; }
     nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    .hero { background: #003399; color: white; padding: 20px 20px; text-align: center; }
-    .hero h1 { font-size: 2.2em; margin-bottom: 10px; }
+    nav a:hover { color: #FFDD00; text-decoration: underline; transition: color 0.3s ease, text-decoration 0.3s ease; }
+
+    .hero { background: #003399; color: white; padding: 40px 20px; text-align: center; }
+    .hero h1 { font-size: 2.5em; margin-bottom: 10px; }
     .hero p { font-size: 1.2em; }
-    .section { padding: 60px 20px; max-width: 900px; margin: auto; background: white; margin-bottom: 20px; box-shadow: 0 0 12px rgba(0,0,0,0.05); }
+
+    .section { padding: 60px 20px; max-width: 900px; margin: auto; background: white; margin-bottom: 20px; box-shadow: 0 0 12px rgba(0,0,0,0.05); border-radius: 10px; }
     .profile-pic { width: 150px; border-radius: 50%; margin: 20px auto; display: block; }
     h2 { color: #003399; }
-    footer { background: #003399; color: white; text-align: center; padding: 20px; font-size: 0.9em; }
-    .cta-button { background: #FF0000; color: white; padding: 15px 25px; text-decoration: none; font-weight: bold; border-radius: 8px; display: inline-block; margin-top: 20px; }
+
     ul { list-style-type: none; padding: 0; }
     li { margin: 10px 0; }
+
     input, textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 6px; }
     label { font-weight: bold; }
-    
-    /* Footer link styling */
-    footer a {
-      color: #FFDD00; /* Light yellow color */
-      text-decoration: none; /* Remove underline */
-    }
 
-    footer a:hover {
-      color: #FFFFFF; /* Change to white when hovered */
-      text-decoration: underline; /* Add underline when hovered */
-    }
+    footer { background: #003399; color: white; text-align: center; padding: 20px; font-size: 0.9em; }
+    footer a { color: #FFDD00; text-decoration: none; }
+    footer a:hover { color: #FFFFFF; text-decoration: underline; }
+
+    .cta-button { background: #FF0000; color: white; padding: 15px 25px; text-decoration: none; font-weight: bold; border-radius: 8px; display: inline-block; margin-top: 20px; }
+    .cta-button:hover { background: #cc0000; transition: background 0.3s ease; }
+
+    .testimonials { margin-top: 40px; }
+    .testimonial { background: #f0f0f0; padding: 20px; border-left: 5px solid #003399; margin-bottom: 20px; border-radius: 8px; }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Dulin Services</h1>
     <p>Licensed Life Insurance Solutions</p>
   </header>
+
   <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
   </nav>
+
   <div class="hero">
     <h1>Protect What Matters Most</h1>
     <p>Serving Families with Integrity and Care</p>
@@ -60,7 +63,6 @@
     <h2>About Robert Dulin</h2>
     <p>As a proud Marine Corps veteran and licensed life insurance agent, I bring discipline, trust, and integrity to every family I serve. With a background rooted in service and leadership, I understand the importance of protecting what matters most.</p>
     <p>I specialize in helping families secure financial peace of mind through personalized life insurance solutions, including final expense coverage, mortgage protection, and whole life policies. My approach is built on trust, transparency, and a genuine commitment to your family's future.</p>
-    <p>Working with Dulin Services means you're not just a client — you're family. I take the time to understand your unique needs and recommend coverage that makes sense for you and your loved ones. My mission is to ensure that no family faces uncertainty during life's most challenging moments.</p>
     <p>Whether you're protecting your family's home, planning for the future, or securing peace of mind, I am here to help you every step of the way.</p>
   </div>
 
@@ -71,30 +73,40 @@
       <li><strong>Whole Life Insurance</strong> – Lifetime protection with cash value benefits.</li>
       <li><strong>Mortgage Protection</strong> – Secure your family's home for the future.</li>
     </ul>
+
+    <div class="testimonials">
+      <h2>Why Clients Trust Me</h2>
+      <div class="testimonial">
+        "Robert made the process easy and stress-free. I feel so much better knowing my family is protected!"<br><em>- Sarah W., Indianapolis</em>
+      </div>
+      <div class="testimonial">
+        "Professional, caring, and knowledgeable. Highly recommend Dulin Services to anyone looking for life insurance."<br><em>- Jason M., Avon</em>
+      </div>
+    </div>
   </div>
 
   <div class="section" id="contact">
-  <h2>Contact</h2>
-  <form action="https://formspree.io/f/mldjpopd" method="POST">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required><br>
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/mldjpopd" method="POST">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="_replyto" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="_replyto" required><br>
 
-    <label for="phone">Phone:</label><br>
-    <input type="text" id="phone" name="phone"><br>
+      <label for="phone">Phone:</label><br>
+      <input type="text" id="phone" name="phone"><br>
 
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="5" required></textarea><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br>
 
-    <button type="submit" class="cta-button">Send Message</button>
-  </form>
-  <p>Email: <a href="mailto:robert@dulinservices.com">robert@dulinservices.com</a></p>
-  <p>Phone: <a href="tel:+13134740849">(313) 474-0849</a> or <a href="tel:+13177392004">(317) 739-2004</a></p>
-  <a href="mailto:robert@dulinservices.com" class="cta-button">Schedule a Consultation</a>
-</div>
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
 
+    <p>Email: <a href="mailto:robert@dulinservices.com">robert@dulinservices.com</a></p>
+    <p>Phone: <a href="tel:+13134740849">(313) 474-0849</a> or <a href="tel:+13177392004">(317) 739-2004</a></p>
+    <a href="mailto:robert@dulinservices.com" class="cta-button">Schedule a Consultation</a>
+  </div>
 
   <footer>
     &copy; 2025 Dulin Services | Licensed Life Insurance Agent | License #4096399<br>
