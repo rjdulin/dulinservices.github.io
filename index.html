@@ -15,9 +15,14 @@
     nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
     nav a:hover { color: #FFDD00; text-decoration: underline; transition: color 0.3s ease, text-decoration 0.3s ease; }
 
-    .hero { background: #003399; color: white; padding: 40px 20px; text-align: center; }
-    .hero h1 { font-size: 2.5em; margin-bottom: 10px; }
-    .hero p { font-size: 1.2em; }
+    .hero { background: url('family-protection.jpg') no-repeat center center/cover; color: white; padding: 60px 20px; text-align: center; position: relative; }
+    .hero h1 { font-size: 2.8em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
+    .hero p { font-size: 1.4em; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
+    .hero .cta-button { margin-top: 20px; font-size: 1.2em; }
+
+    .cta-highlight { background: #FFDD00; color: #003399; text-align: center; padding: 40px 20px; font-size: 1.5em; font-weight: bold; }
+    .cta-highlight a { background: #003399; color: white; padding: 15px 25px; border-radius: 8px; text-decoration: none; margin-top: 20px; display: inline-block; }
+    .cta-highlight a:hover { background: #002277; transition: background 0.3s ease; }
 
     .section { padding: 60px 20px; max-width: 900px; margin: auto; background: white; margin-bottom: 20px; box-shadow: 0 0 12px rgba(0,0,0,0.05); border-radius: 10px; }
     .profile-pic { width: 150px; border-radius: 50%; margin: 20px auto; display: block; }
@@ -32,9 +37,6 @@
     footer { background: #003399; color: white; text-align: center; padding: 20px; font-size: 0.9em; }
     footer a { color: #FFDD00; text-decoration: none; }
     footer a:hover { color: #FFFFFF; text-decoration: underline; }
-
-    .cta-button { background: #FF0000; color: white; padding: 15px 25px; text-decoration: none; font-weight: bold; border-radius: 8px; display: inline-block; margin-top: 20px; }
-    .cta-button:hover { background: #cc0000; transition: background 0.3s ease; }
 
     .testimonials { margin-top: 40px; }
     .testimonial { background: #f0f0f0; padding: 20px; border-left: 5px solid #003399; margin-bottom: 20px; border-radius: 8px; }
@@ -55,16 +57,20 @@
 
   <div class="hero">
     <h1>Protect What Matters Most</h1>
-    <p>Serving Families with Integrity and Care</p>
+    <p>Secure your family's future with trusted life insurance solutions.</p>
+    <a href="#contact" class="cta-button">Request Your Free Consultation</a>
+  </div>
+
+  <div class="cta-highlight">
+    Ready to protect your loved ones? Let's get started today.<br>
+    <a href="#contact">Book Your Free Consultation</a>
   </div>
 
   <div class="section" id="about">
     <img src="ProfilePicture.jpeg" alt="Robert Dulin" class="profile-pic">
     <h2>About Robert Dulin</h2>
-    <p>As a proud Marine Corps veteran and licensed life insurance agent, I bring discipline, trust, and integrity to every family I serve. With a background rooted in service and leadership, I understand the importance of protecting what matters most.</p>
-    <p>I specialize in helping families secure financial peace of mind through personalized life insurance solutions, including final expense coverage, mortgage protection, and whole life policies. My approach is built on trust, transparency, and a genuine commitment to your family's future.</p>
-    <p>Working with Dulin Services and the Schreiber Agency means you're not just a client — you're family. I take the time to understand your unique needs and recommend coverage that makes sense for you and your loved ones. My mission is to ensure that no family faces uncertainty during life's most challenging moments.</p>
-    <p>Whether you're protecting your family's home, planning for the future, or securing peace of mind, I am here to help you every step of the way.</p>
+    <p>As a proud Marine Corps veteran and licensed life insurance agent, I bring discipline, trust, and integrity to every family I serve. My mission is to ensure that no family faces uncertainty during life's most challenging moments.</p>
+    <p>I specialize in final expense coverage, mortgage protection, and whole life insurance, delivering peace of mind with personalized solutions for each client.</p>
   </div>
 
   <div class="section" id="services">
